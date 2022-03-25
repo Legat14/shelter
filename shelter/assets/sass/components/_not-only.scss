@@ -1,0 +1,25 @@
+.not-only {
+  position: relative;
+  top: -120px;
+  height: 908px;
+  background-image: url(../../images/start-screen-puppy.png), url(../../images/start-screen-gradient-background.png), linear-gradient(135deg, $color-gradient-bg-1, $color-gradient-bg-2);
+  background-position: right 40px bottom, left top, left top;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+}
+
+.not-only__div {
+  width: 460px;
+  height: 322px;
+  padding-top: 343px;
+  h2 {
+    width: 310px;
+    font-family: "Georgia", serif;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 57px;
+    color: $color-light-s;
+  }
+  p {
+    color: $color-dark-s;
+  }
+}

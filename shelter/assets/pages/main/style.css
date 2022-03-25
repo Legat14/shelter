@@ -1,5 +1,92 @@
-h1 {
+@font-face {
+  font-family: Arial;
+  src: url(../../fonts/ArialNarrow.ttf);
+}
+@font-face {
+  font-family: Georgia;
+  src: url(../../fonts/Georgia.ttf);
+}
+p,
+ul {
+  font-family: "Arial", sans-serif;
+}
+
+h1,
+h2,
+p {
+  margin: 0;
+}
+
+.wrapper {
+  max-width: 1200px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: auto;
+}
+
+header {
+  position: relative;
+  z-index: 10;
+  height: 60px;
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo h1 {
+  font-family: "Georgia", serif;
+  font-size: 32px;
+  line-height: 35px;
+  font-weight: 400;
+  letter-spacing: 2px;
   color: #f1cdb3;
+}
+.logo p {
+  font-size: 13px;
+  letter-spacing: 2.2px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.nav {
+  color: #fafafa;
+}
+.nav ul {
+  display: flex;
+  color: #cdcdcd;
+}
+
+.not-only {
+  position: relative;
+  top: -120px;
+  height: 908px;
+  background-image: url(../../images/start-screen-puppy.png), url(../../images/start-screen-gradient-background.png), linear-gradient(135deg, #544235, #222021);
+  background-position: right 40px bottom, left top, left top;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+}
+
+.not-only__div {
+  width: 460px;
+  height: 322px;
+  padding-top: 343px;
+}
+.not-only__div h2 {
+  width: 310px;
+  font-family: "Georgia", serif;
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 57px;
+  color: #fafafa;
+}
+.not-only__div p {
+  color: #cdcdcd;
 }
 
 /*# sourceMappingURL=style.css.map */
