@@ -32,7 +32,11 @@ header {
 .nav {
   color: $color-light-s;
   ul {
+    margin-top: 16px;
     display: flex;
+    gap: 36px;
+    font-size: 15px;
+    line-height: 24px;
     color: $color-dark-s;
   }
 }

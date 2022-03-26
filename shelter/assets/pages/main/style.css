@@ -1,6 +1,6 @@
 @font-face {
   font-family: Arial;
-  src: url(../../fonts/ArialNarrow.ttf);
+  src: url(../../fonts/ArialMT.ttf);
 }
 @font-face {
   font-family: Georgia;
@@ -13,8 +13,14 @@ ul {
 
 h1,
 h2,
-p {
+p,
+ul {
   margin: 0;
+}
+
+ul {
+  padding-left: 0;
+  list-style-type: none;
 }
 
 .wrapper {
@@ -59,7 +65,11 @@ header {
   color: #fafafa;
 }
 .nav ul {
+  margin-top: 16px;
   display: flex;
+  gap: 36px;
+  font-size: 15px;
+  line-height: 24px;
   color: #cdcdcd;
 }
 
