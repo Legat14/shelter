@@ -11,8 +11,18 @@ ul {
   font-family: "Arial", sans-serif;
 }
 
+h3 {
+  font-family: "Georgia", serif;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 2px;
+  color: #545454;
+}
+
 h1,
 h2,
+h3,
 p,
 ul {
   margin: 0;
@@ -31,17 +41,6 @@ button {
   border-style: none;
 }
 
-body {
-  background-color: #867164;
-}
-
-.wrapper {
-  max-width: 1200px;
-  padding-left: 40px;
-  padding-right: 40px;
-  margin: auto;
-}
-
 button {
   height: 52px;
   font-family: "Georgia", serif;
@@ -58,6 +57,25 @@ button {
 
 .not-only__button {
   width: 207px;
+}
+
+body {
+  background-color: #867164;
+}
+
+.wrapper {
+  max-width: 1200px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin: auto;
+}
+
+.bg-1 {
+  background-color: #ffffff;
+}
+
+.bg-2 {
+  background-color: #f6f6f6;
 }
 
 header {
@@ -150,6 +168,33 @@ header {
   font-size: 15px;
   line-height: 24px;
   color: #cdcdcd;
+}
+
+.about-shelter {
+  position: relative;
+  top: -120px;
+  height: 588px;
+  background-image: url(../../images/about-pets.png);
+  background-repeat: no-repeat;
+  background-position: 14vw 80px;
+}
+.about-shelter div {
+  position: relative;
+  left: 38.55vw;
+  top: 94px;
+  width: 430px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.about-shelter h3 {
+  width: 350px;
+}
+.about-shelter p {
+  font-size: 15px;
+  line-height: 24px;
+  color: #4c4c4c;
 }
 
 /*# sourceMappingURL=style.css.map */
