@@ -23,7 +23,7 @@ header {
   }
   p {
     font-size: 13px;
-    letter-spacing: 2.2px;
+    letter-spacing: 1.2px;
     font-weight: 400;
     color: $color-light-x;
   }
@@ -38,5 +38,21 @@ header {
     font-size: 15px;
     line-height: 24px;
     color: $color-dark-s;
+  }
+  a {
+    color: $color-dark-s;
+  }
+}
+
+.nav__link_active {
+  color: $color-light-s;
+  text-decoration-line: underline;
+  text-decoration-color: $color-primary;
+  text-decoration-style: solid;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 5px;
+  & a:visited {
+    color: $color-light-s;
+    text-decoration-color: $color-primary;
   }
 }

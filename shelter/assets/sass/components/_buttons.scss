@@ -1,0 +1,17 @@
+button {
+  height: 52px;
+  font-family: "Georgia", serif;
+  font-size: 17px;
+  line-height: 22px;
+  letter-spacing: 1px;
+  border-color: $color-primary;
+  border-radius: 26px;
+}
+
+.button-main {
+  background-color: $color-primary;
+}
+
+.not-only__button {
+  width: 207px;
+}

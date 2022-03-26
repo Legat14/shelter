@@ -11,6 +11,9 @@
   width: 460px;
   height: 322px;
   padding-top: 343px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   h2 {
     width: 310px;
     font-family: "Georgia", serif;
@@ -20,6 +23,10 @@
     color: $color-light-s;
   }
   p {
+    position: relative;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
     color: $color-dark-s;
   }
 }
