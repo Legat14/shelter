@@ -6,12 +6,31 @@ button {
   letter-spacing: 1px;
   border-color: $color-primary;
   border-radius: 26px;
+  cursor: pointer;
 }
 
 .button-main {
   background-color: $color-primary;
 }
 
+.button-secound {
+  background-color: $color-button-2;
+  border-style: solid;
+  border-color: $color-primary;
+}
+
 .not-only__button {
   width: 207px;
+}
+
+.our-friends__button {
+  width: 261px;
+}
+
+.carousel__button {
+  width: 52px;
+}
+
+.card__button {
+  width: 187px;
 }
