@@ -1,0 +1,56 @@
+.help-shelter {
+  position: relative;
+  top: -120px;
+  height: 611px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  &>div {
+    position: relative;
+    top: 80px;
+    height: 431px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  h3 {
+    width: 310px;
+    text-align: center;
+  }
+}
+
+.help-shelter__icons {
+  height: 113px;
+  display: grid;
+  grid-column-gap: 120px;
+  grid-auto-rows: 168px;
+  justify-content: center;
+  justify-items: center;
+}
+
+.icons-greed-1 {
+  max-width: 66vw;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.icons-greed-2 {
+  max-width: 55vw;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.help-shelter__icon {
+  width: auto;
+  height: 113px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  p{
+    font-family: "Georgia";
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 1px;
+  }
+}
