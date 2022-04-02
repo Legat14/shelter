@@ -20,9 +20,20 @@ h3 {
   color: #545454;
 }
 
+h4 {
+  font-family: "Georgia", serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 1px;
+  color: #545454;
+}
+
 h1,
 h2,
 h3,
+h4,
+h5,
 p,
 ul {
   margin: 0;
@@ -324,6 +335,53 @@ header {
   font-size: 20px;
   line-height: 23px;
   letter-spacing: 1px;
+}
+
+.donation {
+  position: relative;
+  top: -120px;
+  height: 462px;
+  background-image: url(../../images/donation-dog.png);
+  background-position: 23.7% 91px;
+  background-repeat: no-repeat;
+}
+
+.donation-info {
+  position: relative;
+  top: 80px;
+  left: 56.5%;
+  width: 380px;
+  height: 282px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.donation-info h3 {
+  width: 300px;
+}
+.donation-info div {
+  width: 349px;
+  height: 43px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #f1cdb3;
+  border-radius: 9px;
+}
+.donation-info > p {
+  font-size: 12px;
+  font-style: italic;
+  line-height: 18px;
+  color: #B2B2B2;
+}
+
+h5 {
+  font-family: "Georgia", serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: #545454;
+  line-height: 17px;
+  letter-spacing: 0.9px;
 }
 
 /*# sourceMappingURL=style.css.map */

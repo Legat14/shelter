@@ -1,0 +1,46 @@
+.donation {
+  position: relative;
+  top: -120px;
+  height: 462px;
+  background-image: url(../../images/donation-dog.png);
+  background-position: 23.7% 91px;
+  background-repeat: no-repeat;
+}
+
+.donation-info {
+  position: relative;
+  top: 80px;
+  left: 56.5%;
+  width: 380px;
+  height: 282px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  h3 {
+    width: 300px;
+  }
+  div {
+    width: 349px;
+    height: 43px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: $color-primary;
+    border-radius: 9px;
+  }
+  &>p {
+    font-size: 12px;
+    font-style: italic;
+    line-height: 18px;
+    color: $color-dark-m;
+  }
+}
+
+h5 {
+  font-family: "Georgia", serif;
+  font-size: 15px;
+  font-weight: 400;
+  color: $color-dark-l;
+  line-height: 17px;
+  letter-spacing: 0.9px;
+}
