@@ -195,11 +195,11 @@ header {
   height: 588px;
   background-image: url(../../images/about-pets.png);
   background-repeat: no-repeat;
-  background-position: 14vw 80px;
+  background-position: 22% 80px;
 }
 .about-shelter div {
   position: relative;
-  left: 38.55vw;
+  left: 49.5%;
   top: 94px;
   width: 430px;
   height: 380px;
@@ -302,12 +302,12 @@ header {
 }
 
 .icons-greed-1 {
-  max-width: 66vw;
+  max-width: 85%;
   grid-template-columns: repeat(5, 1fr);
 }
 
 .icons-greed-2 {
-  max-width: 55vw;
+  max-width: 71%;
   grid-template-columns: repeat(4, 1fr);
 }
 
