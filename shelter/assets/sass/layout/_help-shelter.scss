@@ -1,6 +1,4 @@
 .help-shelter {
-  position: relative;
-  top: -120px;
   height: 611px;
   display: flex;
   flex-direction: column;
@@ -14,6 +12,9 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    h4 {
+      color: $color-dark-l;
+    }
   }
   h3 {
     width: 310px;

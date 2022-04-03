@@ -26,7 +26,6 @@ h4 {
   font-weight: 400;
   line-height: 23px;
   letter-spacing: 1px;
-  color: #545454;
 }
 
 h1,
@@ -115,6 +114,9 @@ header {
   padding-top: 60px;
   display: flex;
   justify-content: space-between;
+  background-image: url(../../images/start-screen-gradient-background.jpg), linear-gradient(135deg, #544235, #222021);
+  background-position: left top, left top;
+  background-repeat: no-repeat, no-repeat;
 }
 
 .logo {
@@ -168,18 +170,17 @@ header {
 }
 
 .not-only {
-  position: relative;
-  top: -120px;
-  height: 908px;
-  background-image: url(../../images/start-screen-puppy.png), url(../../images/start-screen-gradient-background.png), linear-gradient(135deg, #544235, #222021);
-  background-position: right 40px bottom, left top, left top;
+  height: 788px;
+  background-image: url(../../images/start-screen-puppy.png), url(../../images/start-screen-gradient-background.jpg), linear-gradient(135deg, #544235, #222021);
+  background-position: right 40px bottom, left bottom, left top;
   background-repeat: no-repeat, no-repeat, no-repeat;
 }
 
 .not-only__div {
+  position: relative;
+  top: 223px;
   width: 460px;
   height: 322px;
-  padding-top: 343px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -201,8 +202,6 @@ header {
 }
 
 .about-shelter {
-  position: relative;
-  top: -120px;
   height: 588px;
   background-image: url(../../images/about-pets.png);
   background-repeat: no-repeat;
@@ -228,8 +227,6 @@ header {
 }
 
 .our-friends {
-  position: relative;
-  top: -120px;
   height: 877px;
   display: flex;
   flex-direction: column;
@@ -281,8 +278,6 @@ header {
 }
 
 .help-shelter {
-  position: relative;
-  top: -120px;
   height: 611px;
   display: flex;
   flex-direction: column;
@@ -297,6 +292,9 @@ header {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+}
+.help-shelter > div h4 {
+  color: #545454;
 }
 .help-shelter h3 {
   width: 310px;
@@ -338,8 +336,6 @@ header {
 }
 
 .donation {
-  position: relative;
-  top: -120px;
   height: 462px;
   background-image: url(../../images/donation-dog.png);
   background-position: 23.7% 91px;
@@ -382,6 +378,40 @@ h5 {
   color: #545454;
   line-height: 17px;
   letter-spacing: 0.9px;
+}
+
+footer {
+  height: 350px;
+  display: flex;
+  gap: 160px;
+  background-image: url(../../images/footer-puppy.png), url(../../images/footer-gradient-background.jpg), linear-gradient(135deg, #544235, #222021);
+  background-position: right 40px bottom, left top, left top;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+}
+footer h3 {
+  color: #ffffff;
+}
+footer h4 {
+  color: #f1cdb3;
+}
+footer > div {
+  position: relative;
+  top: 56px;
+  height: 234px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer > div > div {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+footer .footer__div-1 {
+  width: 278px;
+}
+footer .footer__div-2 {
+  width: 302px;
 }
 
 /*# sourceMappingURL=style.css.map */

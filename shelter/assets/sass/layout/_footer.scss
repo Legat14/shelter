@@ -1,0 +1,33 @@
+footer{
+  height: 350px;
+  display: flex;
+  gap: 160px;
+  background-image: url(../../images/footer-puppy.png), url(../../images/footer-gradient-background.jpg), linear-gradient(135deg, $color-gradient-bg-1, $color-gradient-bg-2);
+  background-position: right 40px bottom, left top, left top;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  h3 {
+    color: $color-light-x;
+  }
+  h4 {
+    color: $color-primary;
+  }
+  &>div{
+    position: relative;
+    top: 56px;
+    height: 234px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    &>div{
+      display: flex;
+      gap: 20px;
+      align-items: center;
+    }
+  }
+  .footer__div-1 {
+    width: 278px;
+  }
+  .footer__div-2 {
+    width: 302px;
+  }
+}

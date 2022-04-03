@@ -1,16 +1,15 @@
 .not-only {
-  position: relative;
-  top: -120px;
-  height: 908px;
-  background-image: url(../../images/start-screen-puppy.png), url(../../images/start-screen-gradient-background.png), linear-gradient(135deg, $color-gradient-bg-1, $color-gradient-bg-2);
-  background-position: right 40px bottom, left top, left top;
+  height: 788px;
+  background-image: url(../../images/start-screen-puppy.png), url(../../images/start-screen-gradient-background.jpg), linear-gradient(135deg, $color-gradient-bg-1, $color-gradient-bg-2);
+  background-position: right 40px bottom, left bottom, left top;
   background-repeat: no-repeat, no-repeat, no-repeat;
 }
 
 .not-only__div {
+  position: relative;
+  top: 223px;
   width: 460px;
   height: 322px;
-  padding-top: 343px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
