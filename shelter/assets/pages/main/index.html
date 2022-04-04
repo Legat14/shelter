@@ -14,29 +14,29 @@
 
 <body>
   <header class="header wrapper">
-    <div class="logo">
+    <a href="./index.html" class="logo">
       <h1>Cozy House</h1>
       <p>Shelter for pets in Boston</p>
-    </div>
+    </a>
     <nav class="nav">
       <ul>
         <li class="nav__link_active"><a href="">About the shelter</a></li>
-        <!--TODO: Сделать ссылки рабочими-->
-        <li><a href="">Our pets</a></li>
-        <li><a href="">Help the shelter</a></li>
-        <li><a href="">Contacts</a></li>
+        <li><a href="./our-pats.html">Our pets</a></li>
+        <li><a href="#help-shelter">Help the shelter</a></li>
+        <li><a href="#contacts">Contacts</a></li>
       </ul>
     </nav>
   </header>
 
   <main>
-    <section class="not-only wrapper">
+    <section class="not-only wrapper"> <!--TODO: Если в критериях оценки есть не наложение собаки на текст, занести собаку в отдельный блок, а не на фон!--> 
       <div class="not-only__div">
         <h2>Not only people need a house</h2>
         <p>We offer to give a chance to a little and nice puppy with an extremely wide and open heart. He or she will
           love you more than anybody else in the world, you will see!</p>
         <button class="button-main not-only__button" type="button">Make a friend</button>
       </div>
+      <img src="../../images/start-screen-puppy.png" alt="puppy" width="698" height="728">
     </section>
 
     <section class="about-shelter wrapper bg-1">
@@ -54,7 +54,7 @@
 
     <section class="our-friends wrapper bg-2">
       <div>
-        <h3>Our friends who<br> are looking for a house</h3>
+        <h3>Our friends who<br>are looking for a house</h3>
         <div class="carousel">
 
           <button class="button-secound carousel__button" type="button"><b>&#8592;</b></button>
@@ -85,7 +85,7 @@
       </div>
     </section>
 
-    <section class="help-shelter wrapper bg-1">
+    <section id="help-shelter" class="help-shelter wrapper bg-1">
       <div>
         <h3>How you can help our shelter</h3>
         <div class="help-shelter__icons icons-greed-1">
@@ -159,7 +159,7 @@
     </section>
   </main>
 
-  <footer class="wrapper">
+  <footer id="contacts" class="wrapper">
     <div class="footer__div-1">
       <h3>For questions and suggestions</h3>
       <div>

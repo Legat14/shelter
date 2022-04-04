@@ -6,6 +6,10 @@
   font-family: Georgia;
   src: url(../../fonts/Georgia.ttf);
 }
+html {
+  scroll-behavior: smooth;
+}
+
 p,
 ul {
   font-family: "Arial", sans-serif;
@@ -171,9 +175,14 @@ header {
 
 .not-only {
   height: 788px;
-  background-image: url(../../images/start-screen-puppy.png), url(../../images/start-screen-gradient-background.jpg), linear-gradient(135deg, #544235, #222021);
-  background-position: right 40px bottom, left bottom, left top;
-  background-repeat: no-repeat, no-repeat, no-repeat;
+  display: flex;
+  justify-content: space-between;
+  background-image: url(../../images/start-screen-gradient-background.jpg), linear-gradient(135deg, #544235, #222021);
+  background-position: left bottom, left top;
+  background-repeat: no-repeat, no-repeat;
+}
+.not-only > img {
+  align-self: flex-end;
 }
 
 .not-only__div {
