@@ -13,10 +13,19 @@ button {
   background-color: $color-primary;
 }
 
+.button-main:hover {
+  background-color: $color-primary-light;
+}
+
 .button-secound {
   background-color: $color-button-2;
   border-style: solid;
   border-color: $color-primary;
+}
+
+.button-secound:hover {
+  background-color: $color-primary-light;
+  border-color: $color-button-2;
 }
 
 .not-only__button {
