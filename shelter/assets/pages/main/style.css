@@ -72,6 +72,7 @@ button {
 
 .button-main {
   background-color: #f1cdb3;
+  transition: 0.6s;
 }
 
 .button-main:hover {
@@ -82,9 +83,11 @@ button {
   background-color: transparent;
   border-style: solid;
   border-color: #f1cdb3;
+  transition: 0.6s;
 }
 
-.button-secound:hover {
+.button-secound:hover,
+.button-secound_hover {
   background-color: #fddcc4;
   border-color: transparent;
 }
@@ -235,24 +238,26 @@ header {
 
 .about-shelter {
   height: 588px;
-  background-image: url(../../images/about-pets.png);
-  background-repeat: no-repeat;
-  background-position: 22% 80px;
 }
-.about-shelter div {
+.about-shelter > div {
   position: relative;
-  left: 49.5%;
-  top: 94px;
+  top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 120px;
+}
+.about-shelter > div div {
   width: 430px;
   height: 380px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.about-shelter h3 {
+.about-shelter > div h3 {
   width: 350px;
 }
-.about-shelter p {
+.about-shelter > div p {
   font-size: 15px;
   line-height: 24px;
   color: #4c4c4c;
@@ -301,13 +306,21 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: #fafafa;
+  border: 0px solid #f1cdb3;
   cursor: pointer;
+  transition: 0.6s;
 }
 .carousel__card p {
   font-family: "Georgia", serif;
   font-size: 20px;
   line-height: 23px;
   letter-spacing: 1px;
+}
+
+.carousel__card:hover {
+  background-color: #ffffff;
+  transform: scale(107%);
+  border: 3px solid #f1cdb3;
 }
 
 .help-shelter {
@@ -370,15 +383,17 @@ header {
 
 .donation {
   height: 462px;
-  background-image: url(../../images/donation-dog.png);
-  background-position: 23.7% 91px;
-  background-repeat: no-repeat;
+}
+.donation > div {
+  position: relative;
+  top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 }
 
 .donation-info {
-  position: relative;
-  top: 80px;
-  left: 56.5%;
   width: 380px;
   height: 282px;
   display: flex;
@@ -409,6 +424,7 @@ h5 {
   height: 43px;
   background-color: #f1cdb3;
   border-radius: 9px;
+  transition: 0.6s;
 }
 .donation-link a {
   width: 100%;
@@ -416,6 +432,10 @@ h5 {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+}
+
+.donation-link:hover {
+  background-color: #fddcc4;
 }
 
 footer {
@@ -443,10 +463,11 @@ footer > div {
   flex-direction: column;
   justify-content: space-between;
 }
-footer > div > div {
+footer > div > div, footer > div > a {
   display: flex;
   gap: 20px;
   align-items: center;
+  cursor: pointer;
 }
 footer .footer__div-1 {
   width: 278px;

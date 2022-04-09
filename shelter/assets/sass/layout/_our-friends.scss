@@ -41,11 +41,19 @@
   justify-content: space-between;
   align-items: center;
   background-color: $color-light-s;
+  border: 0px solid $color-primary;
   cursor: pointer;
+  transition: 0.6s;
   p {
     font-family: "Georgia", serif;
     font-size: 20px;
     line-height: 23px;
     letter-spacing: 1px;
   }
+}
+
+.carousel__card:hover {
+  background-color: $color-light-x;
+  transform: scale(107%);
+  border: 3px solid $color-primary;
 }

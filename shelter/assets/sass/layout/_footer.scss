@@ -26,10 +26,12 @@ footer {
     flex-direction: column;
     justify-content: space-between;
 
-    &>div {
+    &>div,
+    &>a {
       display: flex;
       gap: 20px;
       align-items: center;
+      cursor: pointer;
     }
   }
 

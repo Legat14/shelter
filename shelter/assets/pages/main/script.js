@@ -9,8 +9,26 @@ makeFriendBtn.addEventListener('click', () => {
 
 //------Carousel button link------
 
-const GetToKnowBtn = document.querySelector('.our-friends__button');
+const getToKnowBtn = document.querySelector('.our-friends__button');
 
-GetToKnowBtn.addEventListener('click', () => {
+getToKnowBtn.addEventListener('click', () => {
   document.location.href = "./our-pats.html";
+});
+
+//------Carousel card button hover when card hovered------
+
+const allCarouselCards = document.querySelectorAll('.carousel__card');
+
+allCarouselCards.forEach(card => {
+  card.addEventListener('mouseover', () => {
+    const button = card.querySelector('button');
+    button.classList.add('button-secound_hover');
+  });
+});
+
+allCarouselCards.forEach(card => {
+  card.addEventListener('mouseout', () => {
+    const button = card.querySelector('button');
+    button.classList.remove('button-secound_hover');
+  });
 });

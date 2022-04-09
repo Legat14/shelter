@@ -11,6 +11,7 @@ button {
 
 .button-main {
   background-color: $color-primary;
+  transition: 0.6s;
 }
 
 .button-main:hover {
@@ -21,9 +22,11 @@ button {
   background-color: $color-button-2;
   border-style: solid;
   border-color: $color-primary;
+  transition: 0.6s;
 }
 
-.button-secound:hover {
+.button-secound:hover,
+.button-secound_hover { // Class to make hover effect width JS
   background-color: $color-primary-light;
   border-color: $color-button-2;
 }
