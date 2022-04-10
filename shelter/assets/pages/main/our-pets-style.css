@@ -100,12 +100,22 @@ button {
   width: 261px;
 }
 
-.carousel__button {
+.carousel__button,
+.list__button {
   width: 52px;
 }
 
 .card__button {
   width: 187px;
+}
+
+.list__button:disabled {
+  border-color: #cdcdcd;
+}
+
+.list__button:disabled:hover {
+  background-color: transparent;
+  border-color: #cdcdcd;
 }
 
 body {
@@ -130,6 +140,7 @@ body {
 .header {
   position: sticky;
   top: 0;
+  z-index: 10;
   height: 60px;
   padding: 30px 40px;
   display: flex;
@@ -198,6 +209,83 @@ body {
 .nav__link_active a:visited {
   color: #292929;
   text-decoration-color: #f1cdb3;
+}
+
+.our-pets_our-friends {
+  height: 1342px;
+}
+.our-pets_our-friends > div {
+  position: relative;
+  top: 80px;
+  width: 1200px;
+  height: 1162px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.our-pets_our-friends > div h3 {
+  text-align: center;
+  width: 400px;
+}
+
+.list {
+  width: 100%;
+  height: 900px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list > div {
+  width: 990px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 40px;
+  grid-row-gap: 30px;
+  background-color: inherit;
+}
+
+.list__card {
+  width: 270px;
+  height: 405px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fafafa;
+  outline: 0px solid #f1cdb3;
+  border-radius: 9px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: 0.6s;
+}
+.list__card p {
+  font-family: "Georgia", serif;
+  font-size: 20px;
+  line-height: 23px;
+  letter-spacing: 1px;
+}
+
+.list__card:hover {
+  background-color: #ffffff;
+  transform: scale(107%);
+  outline: 3px solid #f1cdb3;
+}
+
+.list__buttons-panel {
+  display: flex;
+  gap: 20px;
+}
+
+.list-number {
+  width: 52px;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1cdb3;
+  border-radius: 26px;
 }
 
 footer {

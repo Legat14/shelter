@@ -1,12 +1,10 @@
-.our-friends {
-  height: 877px;
-  display: flex;
-  flex-direction: column;
+.our-pets_our-friends {
+  height: 1342px;
   &>div {
     position: relative;
     top: 80px;
     width: 1200px;
-    height: 697px;
+    height: 1162px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -18,21 +16,23 @@
   }
 }
 
-.carousel {
+.list {
   width: 100%;
-  height: 435px;
+  height: 900px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   &>div {
     width: 990px;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 40px;
+    grid-row-gap: 30px;
     background-color: inherit;
   }
 }
 
-.carousel__card {
+.list__card {
   width: 270px;
   height: 405px;
   padding-bottom: 30px;
@@ -54,8 +54,23 @@
   }
 }
 
-.carousel__card:hover {
+.list__card:hover {
   background-color: $color-light-x;
   transform: scale(107%);
   outline: 3px solid $color-primary;
+}
+
+.list__buttons-panel {
+  display: flex;
+  gap: 20px;
+}
+
+.list-number {
+  width: 52px;
+  height: 52px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $color-primary;
+  border-radius: 26px;
 }

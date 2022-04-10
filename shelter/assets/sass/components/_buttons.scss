@@ -39,10 +39,20 @@ button {
   width: 261px;
 }
 
-.carousel__button {
+.carousel__button,
+.list__button {
   width: 52px;
 }
 
 .card__button {
   width: 187px;
+}
+
+.list__button:disabled {
+  border-color: $color-dark-s;
+}
+
+.list__button:disabled:hover {
+  background-color: $color-button-2;
+  border-color: $color-dark-s;
 }

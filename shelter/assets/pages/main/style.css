@@ -100,12 +100,22 @@ button {
   width: 261px;
 }
 
-.carousel__button {
+.carousel__button,
+.list__button {
   width: 52px;
 }
 
 .card__button {
   width: 187px;
+}
+
+.list__button:disabled {
+  border-color: #cdcdcd;
+}
+
+.list__button:disabled:hover {
+  background-color: transparent;
+  border-color: #cdcdcd;
 }
 
 body {
@@ -306,7 +316,9 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #fafafa;
-  border: 0px solid #f1cdb3;
+  outline: 0px solid #f1cdb3;
+  border-radius: 9px;
+  overflow: hidden;
   cursor: pointer;
   transition: 0.6s;
 }
@@ -320,7 +332,7 @@ body {
 .carousel__card:hover {
   background-color: #ffffff;
   transform: scale(107%);
-  border: 3px solid #f1cdb3;
+  outline: 3px solid #f1cdb3;
 }
 
 .help-shelter {
