@@ -2,7 +2,7 @@
   height: 788px;
   display: flex;
   justify-content: space-between;
-  background-image: url(../../images/start-screen-gradient-background.jpg), linear-gradient(135deg, $color-gradient-bg-1, $color-gradient-bg-2);
+  background-image: url(../../assets/images/start-screen-gradient-background.jpg), linear-gradient(135deg, $color-gradient-bg-1, $color-gradient-bg-2);
   background-position: left bottom, left top;
   background-repeat: no-repeat, no-repeat;
   &>img {

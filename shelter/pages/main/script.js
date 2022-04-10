@@ -12,7 +12,7 @@ makeFriendBtn.addEventListener('click', () => {
 const getToKnowBtn = document.querySelector('.our-friends__button');
 
 getToKnowBtn.addEventListener('click', () => {
-  document.location.href = "./our-pats.html";
+  document.location.href = "../our-pets/index.html";
 });
 
 //------Carousel card button hover when card hovered------
